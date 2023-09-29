@@ -1,3 +1,9 @@
+# Submitted by: Bulatao, Chris Owyn A.
+# BSCS - 1
+# CC2 - 1B
+# September 27, 2023
+
+
 name = input("What is your name? ")
 age_input = int(input("What is your age? "))
 age = int(age_input)
