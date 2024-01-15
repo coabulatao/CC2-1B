@@ -8,13 +8,26 @@ namespace MyApplication
     {
         // User's weight in pounds
     Console.Write("Weight in Pounds (lbs): ");
-    
+
     int pounds = Convert.ToInt32(Console.ReadLine());
     double kilo = pounds / 2.205;
     // 
     Console.WriteLine("Weight converted to Kilograms:" + kilo);
     
-   
+    
+    Console.Write("Length in Miles (mi): ");
+    float Miles = float.Parse(Console.ReadLine());
+    double kilometer = Miles * 1.6;
+    
+    Console.WriteLine("Length converted to Kilometer:" + kilometer);
+    
+    Console.Write("Temperature in Fahrenheit(°F): ");
+    float Fahrenheit  = float.Parse(Console.ReadLine());
+    double Celsius = (5/9)*(Fahrenheit - 2);
+    
+    Console.WriteLine("Temperature to Celsius (°C): " + Celsius);
+
+
     }
   }
 }
